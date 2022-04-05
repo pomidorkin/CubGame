@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>9.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,10 +53,19 @@
     <UnityVersion>2021.2.8f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Assets\ZombieSpawner.cs" />
+    <Compile Include="Assets\Scripts\ZombieSpawner.cs" />
+    <Compile Include="Assets\Scripts\AiStateMachine.cs" />
+    <Compile Include="Assets\Scripts\AiState.cs" />
+    <Compile Include="Assets\Scripts\AiAgent.cs" />
+    <Compile Include="Assets\Scripts\AiAgentConfig.cs" />
+    <Compile Include="Assets\Scripts\AiLocomotion.cs" />
+    <Compile Include="Assets\Scripts\AiChasePlayerScript.cs" />
+    <Compile Include="Assets\Scripts\AiSensor.cs" />
+    <Compile Include="Assets\Scripts\Ragdoll.cs" />
+    <Compile Include="Assets\Scripts\AiDeathState.cs" />
+    <Compile Include="Assets\Scripts\AiIdleState.cs" />
+    <Compile Include="Assets\Scripts\Health.cs" />
+    <Compile Include="Assets\Scripts\Hitbox.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

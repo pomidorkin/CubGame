@@ -348,7 +348,19 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/ZombieSpawner.cs"
+"Assets/Scripts/AiAgent.cs"
+"Assets/Scripts/AiAgentConfig.cs"
+"Assets/Scripts/AiChasePlayerScript.cs"
+"Assets/Scripts/AiDeathState.cs"
+"Assets/Scripts/AiIdleState.cs"
+"Assets/Scripts/AiLocomotion.cs"
+"Assets/Scripts/AiSensor.cs"
+"Assets/Scripts/AiState.cs"
+"Assets/Scripts/AiStateMachine.cs"
+"Assets/Scripts/Health.cs"
+"Assets/Scripts/Hitbox.cs"
+"Assets/Scripts/Ragdoll.cs"
+"Assets/Scripts/ZombieSpawner.cs"
 -langversion:9.0
 
 /deterministic
